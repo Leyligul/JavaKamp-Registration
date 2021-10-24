@@ -4,17 +4,17 @@ import Entites.abstracts.CustomerService;
 
 public class Customer implements CustomerService {
 	
-     String FirstName;
-     String LastName;
-     String email;
-     String password;
+     private String firstName;
+     private String lastName;
+     private String email;
+     private String password;
      
      
 
 	public Customer(String firstName, String lastName, String email, String password) {
 		super();
-		FirstName = firstName;
-		LastName = lastName;
+		this.firstName = firstName;
+		this.lastName = lastName;
 		this.email = email;
 		this.password = password;
 	}
